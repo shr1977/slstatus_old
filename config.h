@@ -68,9 +68,10 @@ static const struct arg args[] = {
 	{ ram_free, "RAM %s ", NULL },
 	{ swap_free, "SWAP %s ", NULL },
 	{ disk_free, "HDD %s ", "/" },
-	{ wifi_essid, "NET %s ", "wlp1s0" },
-	{ wifi_perc, "%s%% ", "wlp1s0" },
-	{ battery_perc, "BAT %s%%", "BATT" },
+	{ wifi_essid, "NET %s ", "wlp58s0" },
+	{ wifi_perc, "%s%% ", "wlp58s0" },
+/*	{ battery_perc, "BAT %s%%", "BATT" },
 	{ battery_state, "%s ", "BATT" },
-  { datetime, "%s",           "%F %T" },
+*/
+	{ datetime, "%s",           "%F %T" },
 };
