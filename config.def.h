@@ -66,13 +66,13 @@ static const struct arg args[] = {
 	{ load_avg, "CPU %s ", NULL},
 	{ cpu_perc, "%s%% ", NULL},
 	{ ram_free, "RAM %s ", NULL },
-	{ swap_free, "SWAP %s ", NULL },
-	{ disk_free, "HDD %s ", "/" },
-	{ ipv4, "NET %s ", "eth0" },
-	{ datetime, "%s",           "%F %T" },
-/*	{ wifi_perc, "%s%% ", "wlp58s0" },
-	{ wifi_essid, "NET %s ", "wlp58s0" },
+/*	{ swap_free, "SWAP %s ", NULL }, */
+	{ disk_free, "Root %s ", "/" },
+  { disk_free, "Home %s ", "/home" },
+/*	{ ipv4, "NET %s ", "eth0" }, */
+  { datetime, " %s", "%H:%M  %a. %d %b. %Y" },
+  /*	{ wifi_perc, "%s%% ", "wlp1s0" }, */
+	{ wifi_essid, "NET %s ", "wlp1s0" },
 	{ battery_perc, "BAT %s%%", "BATT" },
 	{ battery_state, "%s ", "BATT" },
-*/
 };
