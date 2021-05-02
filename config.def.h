@@ -65,10 +65,10 @@ static const struct arg args[] = {
 	/* function format          argument */
 /*	{ load_avg, "CPU %s ", NULL}, */
 	{ cpu_perc, "  %s%% ", NULL},
-	{ ram_perc, " %s ", NULL },
+	{ ram_perc, " %s%% ", NULL },
 /*	{ swap_free, "SWAP %s ", NULL }, */
-	{ disk_perc, " %s ", "/" },
-  { disk_perc, " %s ", "/home" },
+	{ disk_perc, " %s%% ", "/" },
+  { disk_perc, " %s%% ", "/home" },
 /*	{ ipv4, "NET %s ", "eth0" }, */
   { datetime, " %s ", " %R  %Y-%m-%d"}, 
   /*	{ wifi_perc, "%s%% ", "wlp1s0" }, */
