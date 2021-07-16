@@ -73,6 +73,5 @@ static const struct arg args[] = {
 /*	{ wifi_perc, "%s%% ", "wlp58s0" },
 	{ wifi_essid, "NET %s ", "wlp58s0" },
 	{ battery_perc, "BAT %s%%", "BATT" },
-	{ battery_state, "%s ", "BATT" },
-*/
+	{ battery_state, "%s ", "BATT" }, */
 };
