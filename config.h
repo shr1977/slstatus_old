@@ -71,8 +71,8 @@ static const struct arg args[] = {
   { disk_perc, " %s%% ", "/home" },
 /*	{ ipv4, "NET %s ", "eth0" }, */
   { datetime, " %s ", " %R  %Y-%m-%d"}, 
-  /*	{ wifi_perc, "%s%% ", "wlp1s0" }, */
-	{ wifi_essid, " %s ", "wlp1s0" },
+  /*	{ wifi_perc, "%s%% ", "wlan0" }, */
+	{ wifi_essid, " %s ", "wlan0" },
 	{ battery_perc, "  %s%% ", "BATT" },
 	{ battery_state, "%s", "BATT" },
 };
